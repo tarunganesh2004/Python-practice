@@ -1,0 +1,1 @@
+ID Name Gender Age Fare Fare_INR

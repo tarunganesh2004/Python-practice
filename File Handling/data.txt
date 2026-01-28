@@ -1,4 +1,4 @@
-JavaScript
-C++
-Java
-Python
+ID Name Gender Age Fare Fare_INR
+101 Tarun Male 22 500 550.0
+102 Rahul Male 23 450 495.0
+104 Kiran Male 26 300 330.0
