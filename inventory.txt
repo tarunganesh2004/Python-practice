@@ -1,0 +1,11 @@
+ProductID,Brand,Category,Material,CostPrice,SellingPrice,Stock,Rating
+P101,Adidas,Shoes,Leather,3200,4599,12,8.6
+P102,Nike,Shoes,Polyster,2800,3999,5,7.2
+P103,Puma,Jacket,Cotton,2100,3499,0,6.1
+P104,Adidas,Jacket,Wool,4100,5999,8,9.1
+P105,Nike,TShirt,Cotton,700,1299,25,8.9
+P106,Puma,Shoes,Leather,3600,4999,3,9.4
+P107,Reebok,TShirt,Polyster,650,1199,0,5.8
+P108,Nike,Jacket,Cashmere,5200,7999,2,9.7
+P109,Adidas,Shoes,Cotton,2600,3799,15,7.5
+P110,Puma,TShirt,Cotton,800,1499,18,8.1

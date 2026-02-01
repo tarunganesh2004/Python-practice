@@ -1,0 +1,5 @@
+Brand,TotalProfit
+Leather,766.78
+Cotton,476.85
+Cashmere,466.72
+Wool,227.66

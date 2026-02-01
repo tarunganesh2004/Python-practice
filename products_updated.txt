@@ -1,0 +1,8 @@
+Brand,Material,Price,Popularity_Score,OfferPrice,Trend
+Nike,Wool,710.14,5.0,674.63,Outdated
+Nike,Cashmere,414.74,10.4,389.86,Emerging
+Nike,Wool,239.64,3.4,227.66,Outdated
+Nike,Cotton,435.24,8.7,404.77,Trending
+Nike,Leather,782.43,9.3,766.78,Emerging
+Nike,,188.42,6.4,188.42,Classic
+Nike,,313.17,10.3,313.17,Emerging

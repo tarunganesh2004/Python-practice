@@ -1,0 +1,102 @@
+python file handling: 
+
+question1 : input text file:
+101,John Doe,Artificial Intelligence,5,New York,9.1,2
+S-102,Mary Jane,Data Science,3,Chicago,8.4,1
+103,Peter Parker,Computer Science,7,Queens,9.5,3
+S-104,Tony Stark,Mechanical Engineering,4,Los Angeles,7.8,2
+105,Bruce Wayne,Civil Engineering,6,Gotham,8.2,0
+S-106,Clark Kent,Electrical Engineering,2,Metropolis,8.9,1
+107,Diana Prince,Robotics,8,Themyscira,9.3,2
+S-108,Barry Allen,Information Technology,3,Central City,7.6,1
+109,Arthur Curry,Marine Engineering,5,Atlantis,8.0,0
+S-110,Victor Stone,Cyber Security,4,Detroit,8.7,2
+
+questions :
+1.IDs without S- prefix must be converted (e.g., 101 → S-101).
+2.Only FirstName,LastName are separated from full name.
+3.City and extra fields are dropped.
+4.Output strictly follows comma-separated format.
+
+solution:
+
+with open("input.txt",'r') as f:
+    lines = f.readlines()
+    data = [line.strip().split(",") for line in lines[0:]]
+    for row in data:
+        a = row[0].split("-")
+        student_id= row[0]
+        
+        if(len(a) != 2):
+            student_id = 'S' + '-' + row[0]
+    
+        fullname = row[1].split(" ")
+        branch = row[2]
+        semester = row[3]
+        cgpa = row[5]
+        row[0] = student_id
+        row[1] = fullname[0][0].lower() + fullname[0][1:]
+        row[2] = fullname[1]
+        row[3] = branch
+        row[4] = semester
+        row[5] = cgpa
+        
+header = ["StudentID","FirstName","LastName","Branch","Semester","CGPA"]
+with open("newinput.txt",'w') as f:
+    f.write(",".join(header) + "\n")
+    for row in data:
+        f.write(",".join(row[:6]) + "\n")
+
+
+question 2 : input text file
+S001, Alice Wonderland,Computer Science,3,Delhi,8.7,2
+002,Bob Thebuilder,Mechanical Engg,5,Mumbai,7.9,1
+5003, Charlie Chaplin,Electrical Engineering,7,Kolkata,9.2,0
+S004, Diana Prince, Civil Engg ,4,Chennai,8.1,3
+
+convert it to:
+StudentID,FirstName,LastName,Branch,Semester,CGPA
+S-001,Alice,Wonderland,Computer Science,3,8.7
+S-002,Bob,Thebuilder,Mechanical Engg,5,7.9
+S-003,Charlie,Chaplin,Electrical Engineering,7,9.2
+S-004,Diana,Prince,Civil Engg,4,8.1
+
+code:
+with open("input.txt",'r') as f:
+    lines = f.readlines()
+    data = [line.strip().split(",") for line in lines[0:]]
+    for row in data:
+        student_id = row[0]
+        a = len(row[0])
+        if(a == 4 and row[0][0] == 'S'):
+            student_id = 'S' + '-' + row[0][1:]
+        elif(a == 3):
+            student_id = 'S' + '-' + row[0][0:]
+        else:
+            student_id = 'S' + '-' + row[0][1:]
+
+        fullname = row[1].strip().split(" ")
+        firstname = fullname[0]
+        lastname = fullname[1]
+
+        branch = row[2].strip()
+        semester = row[3]
+        CGPA = row[5]
+
+        row[0] = student_id
+        row[1] = firstname
+        row[2] = lastname
+        row[3] = branch
+        row[4] = semester
+        row[5] = CGPA
+
+header = ["StudentID","FirstName","LastName","Branch","Semester","CGPA"]
+
+with open("newinput.txt",'w')as g:
+    g.write(",".join(header) + "\n")
+    for row in data:
+        g.write(",".join(row[:6]) + "\n")
+
+
+
+ 

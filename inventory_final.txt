@@ -1,0 +1,9 @@
+ProductID,Brand,Category,CostPrice,SellingPrice,Stock,Rating,Profit,StockStatus
+P101,Adidas,Shoes,3200,5058.9,12,8.6,1858.9,Available
+P102,Nike,Shoes,2800,3999,5,7.2,1199.0,Available
+P104,Adidas,Jacket,4100,5999,8,9.1,1899.0,Available
+P105,Nike,TShirt,700,1299,25,8.9,599.0,Available
+P106,Puma,Shoes,3600,5498.9,3,9.4,1898.9,Low Stock
+P108,Nike,Jacket,5200,7999,2,9.7,2799.0,Low Stock
+P109,Adidas,Shoes,2600,3799,15,7.5,1199.0,Available
+P110,Puma,TShirt,800,1499,18,8.1,699.0,Available

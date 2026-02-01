@@ -1,0 +1,8 @@
+N,i,-,N,i,k,e,,,W,o,o,l,,,7,1,0,.,1,4,,,4,,,6,7,4,.,6,3,,,O,u,t,d,a,t,e,d,OfferPrice,Trend
+Ni-Nike,Wool,710.14,4,674.63,Outdated
+Ni-Nike,Leather,782.43,8.3,766.78,Trending
+Ni-Nike,Cotton,435.24,7.7,404.77,Trending
+Ni-Nike,Cashmere,414.74,9.4,389.86,Emerging
+Ni-Nike,Wool,239.64,2.4,227.66,Outdated
+Ni-Nike,Cashmere,81.77,7.3,76.86,Trending
+Ni-Nike,Cotton,77.51,6.9,72.08,Classic
