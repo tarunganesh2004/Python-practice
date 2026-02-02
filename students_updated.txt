@@ -1,0 +1,11 @@
+StudentID,LastName,FirstName,Branch,Semester,CGPA
+S-101,Doe, John,Doe,Artificial Intelligence,5,9.1,2
+S-102,Jane, Mary,Jane,Data Science,3,8.4,1
+S-103,Parker, Peter,Parker,Computer Science,7,9.5,3
+S-104,Stark, Tony,Stark,Mechanical Engineering,4,7.8,2
+S-105,Wayne, Bruce,Wayne,Civil Engineering,6,8.2,0
+S-106,Kent, Clark,Kent,Electrical Engineering,2,8.9,1
+S-107,Prince, Diana,Prince,Robotics,8,9.3,2
+S-108,Allen, Barry,Allen,Information Technology,3,7.6,1
+S-109,Curry, Arthur,Curry,Marine Engineering,5,8.0,0
+S-110,Stone, Victor,Stone,Cyber Security,4,8.7,2

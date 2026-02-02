@@ -1,0 +1,10 @@
+101,John Doe,Artificial Intelligence,5,New York,9.1,2
+S-102,Mary Jane,Data Science,3,Chicago,8.4,1
+103,Peter Parker,Computer Science,7,Queens,9.5,3
+S-104,Tony Stark,Mechanical Engineering,4,Los Angeles,7.8,2
+105,Bruce Wayne,Civil Engineering,6,Gotham,8.2,0
+S-106,Clark Kent,Electrical Engineering,2,Metropolis,8.9,1
+107,Diana Prince,Robotics,8,Themyscira,9.3,2
+S-108,Barry Allen,Information Technology,3,Central City,7.6,1
+109,Arthur Curry,Marine Engineering,5,Atlantis,8.0,0
+S-110,Victor Stone,Cyber Security,4,Detroit,8.7,2
