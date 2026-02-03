@@ -1,0 +1,19 @@
+S001,Alice Wonderland,Computer Science,3,Southampton,8.7,3
+
+S002,Bob Thebuilder,Mechanical Engineering,5,Hamilton,7.9,4
+
+S003,Charlie Chaplin,Electrical Engineering,7,Paris,9.2,2
+
+S004,Diana Prince,Civil Engineering,4,London,8.1,1
+
+S005,Eve Harrington,Information Technology,6,Bangalore,8.5,3
+
+S006,Frankenstein Monster,Chemical Engineering,2,Mysore,7.5,2
+
+S007,Grace Hopper,Computer Science,8,Bangalore,9.5,0
+    
+S008,Harry Potter,Electronics Engineering,1,Bangalore,7,6
+
+S009,Ivy Queen,Mechanical Engineering,5,Mysore,8,3
+
+S010,Jack Sparrow,Civil Engineering,3,Bangalore,7.8,0
